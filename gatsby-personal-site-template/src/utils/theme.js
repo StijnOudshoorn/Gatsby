@@ -32,7 +32,7 @@ class ThemeProvider extends Component {
     this.setState({ dark })
     vaderAudio.stop()
     r2d2Audio.stop()
-    dark ? vaderAudio.play() : r2d2Audio.play()
+    /*dark ? vaderAudio.play() : r2d2Audio.play()*/  /* This line would play a sound when the light/dark mode is toggled, so I turned it off*/
   }
 
   render() {
